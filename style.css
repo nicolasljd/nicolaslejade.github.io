@@ -1,0 +1,92 @@
+.box1 {
+    background-image: url("daphni.png");
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box2 {
+    background-color: #681D37;
+}
+
+h4 {
+    color: #C4411D;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.job {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.corps {
+    background-color: #681D37;
+}
+
+.jobdescription {
+
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: normal;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: .25rem;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #681D37;
+    opacity: 0.75;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: justify;
+}
+
+#jobdescription {
+    border: 1px solid grey;
+}
+
+.btn-link {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+}
+
+.btn-link:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent;
+}
